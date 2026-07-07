@@ -27,6 +27,7 @@ The bot exposes several slash commands powered by the **Rocket League API** via 
 - **`/season-stats <platform> <username> <season>`** — Fetches a player's season stats.
 - **`/leaderboard <platform> <playlist>`** — Displays a playlist leaderboard.
 - **`/players <platform>`** — Shows player counts per playlist.
+- **`/invite`** — Get the bot invite link and support server.
 
 All replies use Discord's modern **Components V2 containers** for a clean, native look.
 
@@ -139,6 +140,11 @@ A `Dockerfile` is included for containerized deployment.
 docker build -t rocket-league-bot .
 docker run --env-file .env rocket-league-bot
 ```
+
+## Invite & Support
+
+- **[Invite the bot](https://discord.com/oauth2/authorize?client_id=1519992284811104318&permissions=0&integration_type=0&scope=bot+applications.commands)** to your own server.
+- **[Join the support server](https://discord.gg/your-support-server)** if you need help or want to test the bot.
 
 ## API Reference
 
