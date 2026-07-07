@@ -11,7 +11,7 @@ function numberToEmoji(number: number): string {
 export const command = createCommand({
     data: new SlashCommandBuilder()
         .setName("leaderboard")
-        .setDescription("Get leaderboard for a playlist")
+        .setDescription("Displays a playlist leaderboard.")
         .addStringOption(option =>
             option.setName("platform")
                 .setDescription("The platform to get stats for")

@@ -6,7 +6,7 @@ import { ContainerBuilder, MessageFlags, SeparatorBuilder, SeparatorSpacingSize,
 export const command = createCommand({
     data: new SlashCommandBuilder()
         .setName("season-stats")
-        .setDescription("Get season stats for a player")
+        .setDescription("Fetches a player's season stats.")
         .addStringOption(option =>
             option.setName("platform")
                 .setDescription("The platform to get stats for")

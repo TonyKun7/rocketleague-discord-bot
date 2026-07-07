@@ -5,7 +5,7 @@ import { ContainerBuilder, MessageFlags, SeparatorBuilder, SeparatorSpacingSize,
 export const command = createCommand({
     data: new SlashCommandBuilder()
         .setName("help")
-        .setDescription("Get help"),
+        .setDescription("Lists available commands."),
     async execute(client, interaction) {
         await interaction.deferReply()
 

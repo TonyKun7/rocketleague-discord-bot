@@ -6,7 +6,7 @@ import { ContainerBuilder, MessageFlags, SeparatorBuilder, SeparatorSpacingSize,
 export const command = createCommand({
     data: new SlashCommandBuilder()
         .setName("players")
-        .setDescription("Get players for a platform")
+        .setDescription("Shows player counts per playlist.")
         .addStringOption(option =>
             option.setName("platform")
                 .setDescription("The platform to get players for")
