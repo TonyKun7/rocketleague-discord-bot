@@ -144,7 +144,7 @@ docker run --env-file .env rocket-league-bot
 ## Invite & Support
 
 - **[Invite the bot](https://discord.com/oauth2/authorize?client_id=1519992284811104318&permissions=0&integration_type=0&scope=bot+applications.commands)** to your own server.
-- **[Join the support server](https://discord.gg/your-support-server)** if you need help or want to test the bot.
+- **[Join the support server](https://discord.gg/a24FRdPpmR)** if you need help or want to test the bot.
 
 ## API Reference
 
